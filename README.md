@@ -360,33 +360,4 @@ curl -X POST "http://localhost:8000/api/predict-triage" \
     "respiratory_rate": 28,
     "symptom": 2
   }'
-```
 
-## 📈 Future Enhancements
-
-- [ ] Real-time patient monitoring with WebSockets
-- [ ] SMS/email alerts for critical patients
-- [ ] Integration with hospital EHR systems
-- [ ] Multi-language support
-- [ ] Advanced analytics with time-series data
-- [ ] User authentication and role-based access
-- [ ] Audit logging for compliance
-- [ ] Model retraining pipeline
-- [ ] Docker containerization
-- [ ] Kubernetes deployment
-
-## 📝 License
-
-This project is for educational and demonstration purposes. Not intended for production medical use without proper validation and regulatory approval.
-
-## 🤝 Contributing
-
-This is a hackathon demo project. Feel free to fork and enhance!
-
-## ⚠️ Disclaimer
-
-**IMPORTANT**: This system is a prototype for demonstration purposes only. It should NOT be used for actual medical diagnosis or treatment decisions without proper clinical validation and regulatory approval. Always consult qualified healthcare professionals for medical decisions.
-
----
-
-Built with ❤️ for hackathons and healthcare innovation.
