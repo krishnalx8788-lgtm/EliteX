@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.db
+ocr_test_output.txt

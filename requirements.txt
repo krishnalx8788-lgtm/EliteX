@@ -1,0 +1,40 @@
+# AI Triage System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Machine Learning
+scikit-learn==1.4.0
+joblib==1.3.2
+
+# Database
+sqlalchemy==1.4.51
+
+# Frontend
+streamlit==1.30.0
+plotly==5.18.0
+
+# HTTP Client (for API calls in dashboard)
+requests==2.31.0
+
+# Data Validation
+pydantic==2.5.3
+
+# OCR Module Dependencies
+pytesseract==0.3.10
+opencv-python==4.9.0.80
+Pillow==10.2.0
+
+# Optional: For production PostgreSQL support
+# psycopg2-binary==2.9.9
+
+# Note: OCR module requires Tesseract OCR engine to be installed on the system
+# Ubuntu/Debian: sudo apt-get install tesseract-ocr
+# macOS: brew install tesseract
+# Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
